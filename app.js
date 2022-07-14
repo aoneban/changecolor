@@ -1,7 +1,7 @@
 document.getElementById("btn").addEventListener("click", myFunction);
 
 function myFunction() {
-  document.getElementsByTagName("BODY")[0].style.backgroundColor = myRand();
+  document.getElementsByTagName("body")[0].style.backgroundColor = myRand();
   document.getElementById("col").innerText = document.body.style.backgroundColor;
 }
 
